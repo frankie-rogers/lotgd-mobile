@@ -20,40 +20,30 @@ body{
     max-width:500px;
     padding:30px;
 }
-h1{
-    margin-bottom:10px;
-}
 .button{
     display:inline-block;
-    margin-top:20px;
+    margin:10px;
     padding:12px 24px;
     background:#2a5a2a;
     color:white;
     text-decoration:none;
     border-radius:6px;
 }
-.button:hover{
-    background:#347034;
-}
 </style>
-<script>
-window.location.href = "https://lotgdonline.com";
-setTimeout(function(){
-    document.getElementById("fallback").style.display = "block";
-},3000);
-</script>
 </head>
 <body>
 <div class="card">
     <h1>Legend of the Green Dragon</h1>
-    <p>Connecting to LoTGD Online...</p>
+    <p>LoTGD Online</p>
 
-    <div id="fallback" style="display:none">
-        <p>The server may be unavailable or your connection may be offline.</p>
-        <a class="button" href="https://lotgdonline.com">
-            Open Website
-        </a>
-    </div>
+    <a class="button" href="https://lotgdonline.com">Play Game</a>
+    <a class="button" href="https://lotgdonline.com/motd.php">News</a>
+    <a class="button" href="https://lotgdonline.com/list.php">Online Players</a>
+    <a class="button" href="https://lotgdonline.com/about.php">About</a>
+
+    <p style="margin-top:25px;font-size:14px;">
+        If the game does not load, check your connection or visit lotgdonline.com.
+    </p>
 </div>
 </body>
 </html>
