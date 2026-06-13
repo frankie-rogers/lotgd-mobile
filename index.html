@@ -1,16 +1,59 @@
 <!doctype html>
-<html>
-  <head>
-    <title>LoTGD Online</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      body { background:#102010; color:#d8f5d0; font-family: sans-serif; text-align:center; padding:40px; }
-      a { color:#d8f5d0; }
-    </style>
-  </head>
-  <body>
-    <h1>LoTGD Online</h1>
-    <p>Loading Legend of the Green Dragon...</p>
-    <p><a href="https://lotgdonline.com">Open lotgdonline.com</a></p>
-  </body>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LoTGD Online</title>
+<style>
+body{
+    margin:0;
+    background:#102010;
+    color:#d8f5d0;
+    font-family:Arial,Helvetica,sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+.card{
+    text-align:center;
+    max-width:500px;
+    padding:30px;
+}
+h1{
+    margin-bottom:10px;
+}
+.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:#2a5a2a;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+.button:hover{
+    background:#347034;
+}
+</style>
+<script>
+window.location.href = "https://lotgdonline.com";
+setTimeout(function(){
+    document.getElementById("fallback").style.display = "block";
+},3000);
+</script>
+</head>
+<body>
+<div class="card">
+    <h1>Legend of the Green Dragon</h1>
+    <p>Connecting to LoTGD Online...</p>
+
+    <div id="fallback" style="display:none">
+        <p>The server may be unavailable or your connection may be offline.</p>
+        <a class="button" href="https://lotgdonline.com">
+            Open Website
+        </a>
+    </div>
+</div>
+</body>
 </html>
