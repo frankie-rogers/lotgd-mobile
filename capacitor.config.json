@@ -1,0 +1,9 @@
+{
+  "appId": "com.lotgdonline",
+  "appName": "LoTGD Online",
+  "webDir": "dist",
+  "server": {
+    "url": "https://lotgdonline.com",
+    "cleartext": false
+  }
+}
