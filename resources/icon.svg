@@ -1,0 +1,6 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" rx="180" fill="#0b1f0b"/>
+  <path d="M512 110 L800 230 V455 C800 650 680 815 512 910 C344 815 224 650 224 455 V230 Z" fill="#173f17" stroke="#d4af37" stroke-width="28"/>
+  <path d="M330 600 C410 390 585 300 725 350 C620 380 600 450 650 520 C555 485 500 545 470 675 C430 625 380 605 330 600Z" fill="#d4af37"/>
+  <text x="512" y="790" text-anchor="middle" font-family="serif" font-size="150" font-weight="bold" fill="#f2e3a3">GD</text>
+</svg>
